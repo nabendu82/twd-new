@@ -315,6 +315,7 @@
     margin-top: 20px;
     height: 400px;
     width: 850px;
+    object-fit: cover;
   }
   .connect_lists li {
       width: 80%;
@@ -370,6 +371,7 @@
     margin-top: 20px;
     height: 400px;
     width: 850px;
+    object-fit: cover;
 }
 .learn_content {
   width: 100%;
@@ -395,6 +397,7 @@
   margin-top: 20px;
   height: 400px;
   width: 850px;
+  object-fit: cover;
 }
 .about_content {
   width: 80%;
@@ -426,6 +429,7 @@
   margin-top: 20px;
   height: 400px;
   width: 850px;
+  object-fit: cover;
 }
 .meet_content {
   width: 80%;
@@ -444,6 +448,7 @@
   margin-top: 30px;
   height: 400px;
   width: 850px;
+  object-fit: cover;
 }
 .review_heading {
   width: max-content;
@@ -469,6 +474,7 @@
   margin-top: 20px;
   height: 400px;
   width: 850px;
+  object-fit: cover;
 }
 
 .myhash_btn {
@@ -615,6 +621,7 @@
     width: 350px;
     height: 300px;
     margin: 15px auto;
+    object-fit: cover;
   }
   .connect_icons{
     display: flex;
