@@ -313,7 +313,7 @@
   .connect_image {
     border-radius: 5px;
     margin-top: 20px;
-    height: 400px;
+    height: 450px;
     width: 850px;
     object-fit: cover;
     /* object-fit: fill; */
@@ -370,7 +370,7 @@
 .learn_image {
     border-radius: 5px;
     margin-top: 20px;
-    height: 400px;
+    height: 480px;
     width: 850px;
     object-fit: cover;
 }
@@ -396,7 +396,7 @@
 .about_image {
   border-radius: 5px;
   margin-top: 20px;
-  height: 400px;
+  height: 480px;
   width: 850px;
   object-fit: cover;
 }
@@ -428,7 +428,7 @@
 .meet_image {
   border-radius: 5px;
   margin-top: 20px;
-  height: 400px;
+  height: 450px;
   width: 850px;
   object-fit: cover;
 }
@@ -447,7 +447,7 @@
 .review_image {
   border-radius: 5px;
   margin-top: 30px;
-  height: 400px;
+  height: 480px;
   width: 850px;
   object-fit: cover;
 }
@@ -465,7 +465,7 @@
 .review_pics{
   border-radius: 5px;
   margin-top: 20px;
-  height: 400px;
+  height: 480px;
   width: 850px;
   object-fit: cover;
 }
