@@ -316,6 +316,7 @@
     height: 400px;
     width: 850px;
     object-fit: cover;
+    /* object-fit: fill; */
   }
   .connect_lists li {
       width: 80%;
@@ -452,8 +453,6 @@
 }
 .review_heading {
   width: max-content;
-  /* margin-left: 50px;
-  margin-top: 10px; */
   margin: 10px auto;
   font-size: 17px;
   border-bottom: 2px solid #7620FF;
@@ -464,12 +463,6 @@
   font-size: 17px;
 }
 .review_pics{
-  /* margin-left: 50px;
-  height: 400px;
-  width: 800px;
-  border-radius: 5px;
-  margin-top: 10px;
-  border: 1px solid #999; */
   border-radius: 5px;
   margin-top: 20px;
   height: 400px;
@@ -621,7 +614,8 @@
     width: 350px;
     height: 300px;
     margin: 15px auto;
-    object-fit: cover;
+    object-fit: fill;
+    
   }
   .connect_icons{
     display: flex;
