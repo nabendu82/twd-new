@@ -7,6 +7,7 @@ import ClientSlider from "../Elements/ClientSlider";
 import Onlinecourse from "../../assets/img/online-course.png";
 import Offlinecourse from "../../assets/img/offline-course.png";
 import Physical_lodging from "../../assets/img/Phyical-lodging.png";
+import pic01 from "../../assets/img/pic01.jpg";
 
 export default function Learn() {
   return (
@@ -23,11 +24,7 @@ export default function Learn() {
           <HeaderInfo>
             <h1 className="font40 extraBold sec_headings">LEARN</h1>
 
-            <img
-              className="learn_image"
-              src="https://twd.codes/static/pic01-3bb03bd268de361257554aa315888e2f.jpg"
-              alt="learn_pic"
-            />
+            <img className="learn_image" src={pic01} alt="learn_pic" />
             <p className="font13 learn_content">
               Web-development is one of the highly paid job and fulfilling
               career in the world. With the rise of the startup ecosystem,

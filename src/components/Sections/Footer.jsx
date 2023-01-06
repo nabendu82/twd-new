@@ -27,7 +27,7 @@ export default function Footer() {
             </Link>
             <StyleP className="whiteColor font13">
               &#169; {getCurrentYear()} -{" "}
-              <span className="orangeColor font13">TWD</span> All Right
+              <span className="orangeColor font12">TWD</span> All Right
               Reserved.
             </StyleP>
 
@@ -83,7 +83,8 @@ const InnerWrapper = styled.div`
   }
 `;
 const StyleP = styled.p`
-  @media (max-width: 550px) {
+  @media (max-width: 575px) {
     margin: 20px 0;
+    font-size: 18px;
   }
 `;

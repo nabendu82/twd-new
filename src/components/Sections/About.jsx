@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
+//assets
+import pic03 from "../../assets/img/pic03.png";
+
 export default function About() {
   return (
     <Wrapper id="about">
@@ -10,11 +13,7 @@ export default function About() {
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold sec_headings">ABOUT</h1>
-            <img
-              src="https://twd.codes/static/pic03-bceb7097b9cfb0d97665e6f4c16a1d00.png"
-              alt="about_image"
-              className="about_image"
-            />
+            <img src={pic03} alt="about_image" className="about_image" />
             <p className="font13 about_content">
               My name is <b>Nabendu Biswas</b> and i have{" "}
               <b>

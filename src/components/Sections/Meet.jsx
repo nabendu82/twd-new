@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
+//assets
+import pic04 from "../../assets/img/pic04.jpg";
+
 export default function Meet() {
   return (
     <Wrapper id="meet">
@@ -10,11 +13,7 @@ export default function Meet() {
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold sec_headings">MEET</h1>
-            <img
-              src="https://twd.codes/static/pic04-245d96b864c8b2fc8852959336960e03.jpg"
-              alt="meet_image"
-              className="meet_image"
-            />
+            <img src={pic04} alt="meet_image" className="meet_image" />
             <p className="font13 meet_content">
               I do weekly live Web-development workshop, in which i will tell
               the 3 Secrets to get into development. Beside this will also teach

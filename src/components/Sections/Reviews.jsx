@@ -1,6 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
+//assets
+import pic05 from "../../assets/img/pic05.png";
+import myHashCode from "../../assets/img/myHashCode.png";
+import trustPilot_1 from "../../assets/img/trustpilotreview1.png";
+import trustPilot_2 from "../../assets/img/trustpilotreview2.png";
+
 export default function Reviews() {
   return (
     <Wrapper id="reviews">
@@ -9,11 +15,7 @@ export default function Reviews() {
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold sec_headings">REVIEWS</h1>
-            <img
-              className="review_image"
-              src="https://twd.codes/static/transition-main-0c7101110e6e4161af8f3a0a397ebc64.png"
-              alt="review_pic"
-            />
+            <img className="review_image" src={pic05} alt="review_pic" />
             <h2 className="review_heading">MYHASHCODE REVIEW</h2>
             <p className="font13 review_content">
               I have taught JavaScript and ReactJS to around 70 students in a
@@ -31,11 +33,7 @@ export default function Reviews() {
               that they have learnt from me. Below is the LinkedIn link for the
               reviews.
             </p>
-            <img
-              className="review_pics"
-              src="https://twd.codes/static/myHashCode-d751c3279d28063692ad115e9a33f1fa.png"
-              alt="review_01"
-            />
+            <img className="review_pics" src={myHashCode} alt="review_01" />
             <br />
             <a
               href="https://www.linkedin.com/feed/update/urn:li:activity:6835641954345226240"
@@ -64,12 +62,12 @@ export default function Reviews() {
             <br />
             <img
               className="review_pics"
-              src="https://twd.codes/static/trustpilotreview1-73cb09a90b2d62e39a1a1f1528b9d6cc.png"
+              src={trustPilot_1}
               alt="review_pic_02"
             />
             <img
               className="review_pics"
-              src="https://twd.codes/static/trustpilotreview2-2e832be2b2f95c45e4666aa7657a1157.png"
+              src={trustPilot_2}
               alt="review_pic_02"
             />
             <br />

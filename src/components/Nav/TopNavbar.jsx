@@ -143,6 +143,10 @@ const Wrapper = styled.nav`
 const NavInner = styled.div`
   position: relative;
   height: 100%;
+  @media all and (min-width: 380px) and (max-width: 768px) {
+    margin: 0 auto;
+    width: 100%;
+  }
 `;
 const BurderWrapper = styled.button`
   outline: none;

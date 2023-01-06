@@ -109,46 +109,43 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           </Link>
         </li>
       </UlStyle>
-      {/* <UlStyle className="flexSpaceCenter">
-        <li className="semiBold font15 pointer">
-          <a href="/" style={{ padding: "10px 30px 10px 0" }} className="whiteColor">
-            Log in
-          </a>
-        </li>
-        <li className="semiBold font15 pointer flexCenter">
-          <a href="/" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
-            Get Started
-          </a>
-        </li>
-      </UlStyle> */}
     </Wrapper>
   );
 }
 
 const Wrapper = styled.nav`
-  width: 400px;
+  width: 400px !important;
   height: 100vh;
   position: fixed;
   top: 0;
-  padding: 0 30px;
+  padding: 0 20px;
   right: ${(props) => (props.sidebarOpen ? "0px" : "-400px")};
   z-index: 9999;
-  @media (max-width: 400px) {
+  @media all and (min-width: 576px) and (max-width: 768px) {
     width: 100%;
   }
 `;
 const SidebarHeader = styled.div`
-  // padding: 20px 0;
+  padding: 0 10px 0 0;
+  @media all and (min-width: 380px) and (max-width: 768px) {
+    // margin-right: 30px;
+  }
 `;
 const CloseBtn = styled.button`
   border: 0px;
   outline: none;
   background-color: transparent;
-  // padding: 10px;
+  padding: 10px;
+  @media all and (min-width: 576px) and (max-width: 768px) {
+    margin-right: 20px;
+  }
 `;
 const UlStyle = styled.ul`
-  padding: 40px;
+  margin: 0 0 0 10px;
   li {
-    margin: 20px 0;
+    margin: 20px 20px;
+  }
+  @media all and (min-width: 576px) and (max-width: 768px) {
+    margin-right: 20px;
   }
 `;

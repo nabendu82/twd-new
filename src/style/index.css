@@ -69,11 +69,16 @@
     margin: 0 auto;
     padding: 0px 30px;
   }
-  @media only screen and (max-width: 859px) {
+  @media all and (min-width: 370px) and (max-width:768px){
+    .container {
+      padding: 10px;
+    }
+  }
+  /* @media only screen and (max-width: 859px) {
     .container {
       padding: 0 15px;
     }
-  }
+  } */
   .regular {
     font-weight: 400!important;
   }
@@ -600,14 +605,14 @@
 }
 
 /* Media querys */
-@media all and (max-width: 759px) {
+@media all and (min-width:360px) and (max-width: 768px) {
   .learn_image, 
   .meet_image, 
   .about_image,
   .connect_image,
   .review_image,
   .review_pics{
-    width: 450px;
+    width: 350px;
     height: 300px;
     margin: 15px auto;
   }
@@ -646,14 +651,19 @@
   .main_para {
     padding: 15px 0 20px 0;
   }
+  .sec_headings {
+    position: relative;
+    width: max-content;
+    margin: 0 auto;
+  }
   .sec_headings:after {
     content: "";
     position: absolute;
     background-color: #0B093B;
     height: 4px;
     width: 100%;
-    bottom: 0px;
-    right: 150px;
+    bottom: 3px;
+    left: 0px;
   
   }
  

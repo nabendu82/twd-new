@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
+//assets
+import pic02 from "../../assets/img/pic02.jpg";
+
 export default function Connect() {
   return (
     <Wrapper id="connect">
@@ -9,11 +12,7 @@ export default function Connect() {
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold sec_headings">CONNECT</h1>
-            <img
-              className="connect_image"
-              src="https://twd.codes/static/pic02-ee98eb21407feb124602ced3f63ce6ca.jpg"
-              alt="connect_img"
-            />
+            <img className="connect_image" src={pic02} alt="connect_img" />
             <ul className="connect_lists">
               <li>
                 I know that you must be receiving tons of emails from a lot of
