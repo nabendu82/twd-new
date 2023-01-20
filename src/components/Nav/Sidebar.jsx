@@ -118,16 +118,16 @@ const Wrapper = styled.nav`
   height: 100vh;
   position: fixed;
   top: 0;
-  padding: 0 20px;
+  // padding: 0 20px;
   right: ${(props) => (props.sidebarOpen ? "0px" : "-400px")};
   z-index: 9999;
-  @media all and (min-width: 576px) and (max-width: 768px) {
-    width: 100%;
-  }
+  // @media all and (min-width: 360px) and (max-width: 768px) {
+  //   width: 100%;
+  // }
 `;
 const SidebarHeader = styled.div`
   padding: 0 10px 0 0;
-  @media all and (min-width: 380px) and (max-width: 768px) {
+  @media all and (min-width: 360px) and (max-width: 768px) {
     // margin-right: 30px;
   }
 `;
@@ -136,7 +136,7 @@ const CloseBtn = styled.button`
   outline: none;
   background-color: transparent;
   padding: 10px;
-  @media all and (min-width: 576px) and (max-width: 768px) {
+  @media all and (min-width: 360px) and (max-width: 768px) {
     margin-right: 20px;
   }
 `;

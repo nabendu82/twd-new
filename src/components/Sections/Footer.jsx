@@ -27,7 +27,7 @@ export default function Footer() {
             </Link>
             <StyleP className="whiteColor font13">
               &#169; {getCurrentYear()} -{" "}
-              <span className="orangeColor font12">TWD</span> All Right
+              <span className="orangeColor font14">TWD</span> All Right
               Reserved.
             </StyleP>
 

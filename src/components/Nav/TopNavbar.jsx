@@ -35,12 +35,12 @@ export default function TopNavbar() {
               TWD
             </h1> */}
           </Link>
-          <BurderWrapper
+          <BurgerWrapper
             className="pointer"
             onClick={() => toggleSidebar(!sidebarOpen)}
           >
             <BurgerIcon />
-          </BurderWrapper>
+          </BurgerWrapper>
           <UlWrapper className="flexNullCenter">
             <li className="semiBold font15 pointer">
               <Link
@@ -143,12 +143,11 @@ const Wrapper = styled.nav`
 const NavInner = styled.div`
   position: relative;
   height: 100%;
-  @media all and (min-width: 380px) and (max-width: 768px) {
+  @media all and (min-width: 360px) and (max-width: 768px) {
     margin: 0 auto;
-    width: 100%;
   }
 `;
-const BurderWrapper = styled.button`
+const BurgerWrapper = styled.button`
   outline: none;
   border: 0px;
   background-color: transparent;

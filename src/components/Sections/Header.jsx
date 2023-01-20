@@ -17,10 +17,7 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <ReactPlayer
-            controls
-            url="https://www.youtube.com/watch?v=aSbgJpCi3pk"
-          />
+          <ReactPlayer controls url="https://youtu.be/fnABJznWWMg" />
         </ImageWrapper>
         <GreyDiv className="lightBg"></GreyDiv>
       </RightSide>
