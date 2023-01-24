@@ -126,7 +126,7 @@ const Wrapper = styled.nav`
   // }
 `;
 const SidebarHeader = styled.div`
-  padding: 0 10px 0 0;
+  padding: 0 10px 0 30px;
   @media all and (min-width: 360px) and (max-width: 768px) {
     // margin-right: 30px;
   }
@@ -137,7 +137,7 @@ const CloseBtn = styled.button`
   background-color: transparent;
   padding: 10px;
   @media all and (min-width: 360px) and (max-width: 768px) {
-    margin-right: 20px;
+    margin-right: 10px;
   }
 `;
 const UlStyle = styled.ul`

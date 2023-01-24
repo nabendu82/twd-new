@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 //assets
 import pic04 from "../../assets/img/pic04.jpg";
+import right_mark from "../../assets/img/right_mark.png";
 
 export default function Meet() {
   return (
@@ -22,12 +23,15 @@ export default function Meet() {
               <br />
               <ul className="meet_list">
                 <li>
+                  <img className="right_mark" src={right_mark} alt="right" />
                   <b>HTML Basics</b>
                 </li>
                 <li>
+                  <img className="right_mark" src={right_mark} alt="right" />
                   <b>CSS Basics</b>
                 </li>
                 <li>
+                  <img className="right_mark" src={right_mark} alt="right" />
                   <b>JavaScript Basics</b>
                 </li>
               </ul>
@@ -37,7 +41,11 @@ export default function Meet() {
               tell you a 6 month process to become a web-app developer and get
               that dream job.
             </p>
-            <a href="https://bit.ly/3v80zfh" target="_blank" rel="noreferrer">
+            <a
+              href="https://us06web.zoom.us/meeting/register/tZckc-mpqz4qGtxvOu7VxhDDRZyjYkS_WkUu"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="myhash_btn animate pointer radius8">
                 Register Here
               </button>

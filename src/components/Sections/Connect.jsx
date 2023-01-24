@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 //assets
 import pic02 from "../../assets/img/pic02.jpg";
+import hand_index_finger from "../../assets/img/Right hand index_finger.png";
 
 export default function Connect() {
   return (
@@ -41,6 +42,19 @@ export default function Connect() {
               </button>
             </a>
             <ul className="connect_icons">
+              <li className="follow_us">
+                <b style={{ marginTop: "10px" }}>Follow Us</b>
+                <img
+                  style={{
+                    height: "30px",
+                    width: "50px",
+                    margin: "0px 0 0px 10px",
+                  }}
+                  src={hand_index_finger}
+                  alt="index_finger"
+                />
+              </li>
+
               <li>
                 <a
                   href="https://www.linkedin.com/in/nabendu-biswas/"
@@ -49,7 +63,7 @@ export default function Connect() {
                 >
                   <img
                     src="https://cdn0.iconfinder.com/data/icons/typicons-2/24/social-linkedin-256.png"
-                    alt="fb_icon"
+                    alt="linkedIn_icon"
                   />
                 </a>
               </li>
@@ -61,7 +75,7 @@ export default function Connect() {
                 >
                   <img
                     src="https://cdn3.iconfinder.com/data/icons/picons-social/57/18-youtube-256.png"
-                    alt="fb_icon"
+                    alt="Youtube_icon"
                   />
                 </a>
               </li>
@@ -85,7 +99,7 @@ export default function Connect() {
                 >
                   <img
                     src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-256.png"
-                    alt="fb_icon"
+                    alt="insta_icon"
                   />
                 </a>
               </li>
@@ -97,7 +111,7 @@ export default function Connect() {
                 >
                   <img
                     src="https://cdn3.iconfinder.com/data/icons/picons-social/57/03-twitter-256.png"
-                    alt="fb_icon"
+                    alt="twitter_icon"
                   />
                 </a>
               </li>
