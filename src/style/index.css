@@ -76,12 +76,23 @@ html, body, div, span, applet, object, iframe,
     font-weight: bold;
     width: 90px;
   }
- #my-element_1,
- #my-element_8,
- #my-element_15,
- #my-element_22,
- #my-element_29{
+
+/* SUNDAY Background-color */
+ #my-element_5,
+ #my-element_12,
+ #my-element_19,
+ #my-element_26{
    background-color:#000 !important;
+ }
+ /* Last month dates background-color */
+ #my-element_29,
+ #my-element_30,
+ #my-element_31,
+ #my-element_32,
+ #my-element_33,
+ #my-element_34,
+ #my-element_35 {
+  background-color:#444 !important;
  }
   @media all and (max-width:759px){
     .mini_nav:hover {
@@ -815,6 +826,7 @@ color:#fff;
   .links_container li{
     margin: 0px auto;
   }
+ 
   .main_heading {
     line-height: 3.2rem;
   }

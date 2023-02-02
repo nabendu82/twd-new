@@ -65,35 +65,67 @@ export default function About() {
                 </div>
                 <div className="social_links">
                   <li>
-                    <a href="https://www.amazon.in/s?i=digital-text&rh=p_27%3ANabendu+Biswas">
+                    <a
+                      href="https://www.amazon.in/s?i=digital-text&rh=p_27%3ANabendu+Biswas"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
                       GatsbyJS Books
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/channel/UCRf7mazcufqZxd2pR3oQJuQ">
+                    <a
+                      href="https://www.youtube.com/channel/UCRf7mazcufqZxd2pR3oQJuQ"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
                       Youtube
                     </a>
                   </li>
                   <li>
-                    <a href="https://open.spotify.com/show/1ZHMluBRqUEJ0qjbZXc0xE">
+                    <a
+                      href="https://open.spotify.com/show/1ZHMluBRqUEJ0qjbZXc0xE"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
                       Podcast
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/groups/thewebdev4u">
+                    <a
+                      href="https://www.facebook.com/groups/thewebdev4u"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
                       Exclusive Facebook Group
                     </a>
                   </li>
                   <li>
-                    <a href="https://t.me/joinchat/H6llKYR0a05hNmI1">
+                    <a
+                      href="https://t.me/joinchat/H6llKYR0a05hNmI1"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
                       Exclusive Telegram Group
                     </a>
                   </li>
                   <li>
-                    <a href="https://thewebdev.tech/">Blog</a>
+                    <a
+                      href="https://thewebdev.tech/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      Blog
+                    </a>
                   </li>
                   <li>
-                    <a href="https://linktr.ee/nabendu.biswas">Linktree</a>
+                    <a
+                      href="https://linktr.ee/nabendu.biswas"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      Linktree
+                    </a>
                   </li>
                 </div>
               </ul>

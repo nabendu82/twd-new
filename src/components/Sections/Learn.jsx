@@ -53,8 +53,9 @@ export default function Learn() {
                     className="learn_school_link"
                     rel="noreferrer"
                   >
-                    here.
-                  </a>
+                    here
+                  </a>{" "}
+                  🚀
                 </p>
               </div>
               <div className="block_2 col-xs-12 col-sm-6 col-md-6 col-lg-6">

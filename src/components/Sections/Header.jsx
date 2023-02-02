@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
-        <div>
+        <div className="block_1">
           <h1 className="main_heading extraBold font60">
             Web Development to the Next Level.
           </h1>
