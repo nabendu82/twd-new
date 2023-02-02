@@ -2,6 +2,10 @@ import React from 'react';
 import { Tooltip as ReactTooltip } from 'react-tooltip';
 
 const Table = () => {
+  var day04 = "Redux Crash Course at 9am-10am - {NABENDU}";
+  var day4 = "WORKSHOP On Zoom at 3pm-6pm - {TEAM}";
+  var day018 = "PostgreSQL with PERN at 9am-10am - {NABENDU}";
+  var day18 = "WORKSHOP On Zoom at 3pm-6pm - {TEAM}";
   return (
     <div>
         {/* <h3 className="month_name">January - 2023</h3> */}
@@ -34,7 +38,7 @@ const Table = () => {
         <ReactTooltip anchorId="my-element_1" content="HOLA JS at 7pm-8pm - {HARI}"  style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_2" content="CSS Beginner at 7:30pm-8:30pm - {MOUSAM}" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_3" content="CSS Beginner at 7:30pm-8:30pm - {MOUSAM}" style={{backgroundColor:"green",fontSize:"20px"}}/>
-        <ReactTooltip anchorId="my-element_4"  content="Redux Crash Course at 9am-10am - {NABENDU}" place="left" style={{backgroundColor:"green",fontSize:"20px",width:"300px"}}/>
+        <ReactTooltip anchorId="my-element_4"  content={day04+" "+day4} place="left" style={{backgroundColor:"green",fontSize:"20px",width:"300px"}}/>
        
         {/* WEEK-2 */}
         <ReactTooltip anchorId="my-element_5" content="TypeScript tutorial - 2 at 9am-10am - {NABENDU}"  style={{backgroundColor:"green",fontSize:"20px"}}/>
@@ -52,7 +56,7 @@ const Table = () => {
         <ReactTooltip anchorId="my-element_15" content="Angular JS at 8:30pm-9:30pm - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_16" content="Angular JS at 8:30pm-9:30pm - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_17" content="Angular JS at 8:30pm-9:30pm - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px"}}/>
-        <ReactTooltip anchorId="my-element_18" content="PostgreSQL with PERN at 9am-10am - {NABENDU}" place="left" style={{backgroundColor:"green",fontSize:"20px",width:"300px"}}/>
+        <ReactTooltip anchorId="my-element_18" content={day018+" "+day18} place="left" style={{backgroundColor:"green",fontSize:"20px",width:"300px"}}/>
       
        {/* WEEK-4 */}
         <ReactTooltip anchorId="my-element_19" content="TypeScript tutorial-3 at 9am-10am - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px"}}/>
