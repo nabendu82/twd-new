@@ -39,7 +39,7 @@ const Table = () => {
         <ReactTooltip anchorId="my-element_4"  content={day04+" "+day4} place="left" style={{backgroundColor:"green",fontSize:"20px",width:"300px"}}/>
        
         {/* WEEK-2 */}
-        <ReactTooltip anchorId="my-element_5" content="TypeScript tutorial - 2 at 9am-10am - {NABENDU}"  style={{backgroundColor:"green",fontSize:"20px"}}/>
+        <ReactTooltip anchorId="my-element_5" content="TypeScript tutorial-2 at 9am-10am - {NABENDU}"  style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_6" content="Bootstrap Beginner to Advance at 5pm-6pm  - {MOUSAM}"  style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_7" content="Bootstrap Beginner to Advance at 5pm-6pm  - {MOUSAM}" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_8" content="HOLA JS at 7pm-8pm - {HARI}" style={{backgroundColor:"green",fontSize:"20px"}}/>
@@ -67,8 +67,8 @@ const Table = () => {
          
       {/* WEEK-5 */}
         <ReactTooltip anchorId="my-element_26" content="-" style={{backgroundColor:"green",fontSize:"20px"}}/>
-        <ReactTooltip anchorId="my-element_27" content="-" style={{backgroundColor:"green",fontSize:"20px"}}/>
-        <ReactTooltip anchorId="my-element_28" content="-"  style={{backgroundColor:"green",fontSize:"20px"}}/>
+        <ReactTooltip anchorId="my-element_27" content="JavaScript Beginner to Advance at 7pm-8pm - {HARI}" style={{backgroundColor:"green",fontSize:"20px"}}/>
+        <ReactTooltip anchorId="my-element_28" content="JavaScript Beginner to Advance at 7pm-8pm - {HARI}"  style={{backgroundColor:"green",fontSize:"20px"}}/>
         {/* ---- */}
         <ReactTooltip anchorId="my-element_32" content="-" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_33" content="-" style={{backgroundColor:"green",fontSize:"20px"}}/>
