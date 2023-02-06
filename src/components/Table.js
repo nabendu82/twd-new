@@ -4,8 +4,6 @@ import { Tooltip as ReactTooltip } from 'react-tooltip';
 const Table = () => {
   var day04 = "Redux Crash Course at 9am-10am - {NABENDU}";
   var day4 = "WORKSHOP On Zoom at 3pm-6pm - {TEAM}";
-  var day018 = "PostgreSQL with PERN at 9am-10am - {NABENDU}";
-  var day18 = "WORKSHOP On Zoom at 3pm-6pm - {TEAM}";
   return (
     <div>
         {/* <h3 className="month_name">January - 2023</h3> */}
@@ -47,19 +45,19 @@ const Table = () => {
         <ReactTooltip anchorId="my-element_8" content="HOLA JS at 7pm-8pm - {HARI}" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_9" content="Bootstrap Beginner to Advance at 5pm-6pm  - {MOUSAM}" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_10" content="Bootstrap Beginner to Advance at 5pm-6pm  - {MOUSAM}" style={{backgroundColor:"green",fontSize:"20px"}}/>
-        <ReactTooltip anchorId="my-element_11" content="12Hrs BOOTCAMP - HTML,CSS,JS and ReactJS at 9am-9pm- {TEAM}" place="left" style={{backgroundColor:"green",fontSize:"20px",width:"300px"}}/>
+        <ReactTooltip anchorId="my-element_11" content="4Hrs BOOTCAMP - HTML,CSS,JS with Projects at 3pm-7pm - {TEAM}" place="left" style={{backgroundColor:"green",fontSize:"20px",width:"300px"}}/>
        
         {/* WEEK-3 */}
-        <ReactTooltip anchorId="my-element_12" content="-" style={{backgroundColor:"green"}}/>
+        <ReactTooltip anchorId="my-element_12" content="TypeScript tutorial-3 at 9am-10am - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_13" content="Angular JS at 8:30pm-9:30pm - {NABENDU}"  style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_14" content="Angular JS at 8:30pm-9:30pm - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_15" content="Angular JS at 8:30pm-9:30pm - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_16" content="Angular JS at 8:30pm-9:30pm - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_17" content="Angular JS at 8:30pm-9:30pm - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px"}}/>
-        <ReactTooltip anchorId="my-element_18" content={day018+" "+day18} place="left" style={{backgroundColor:"green",fontSize:"20px",width:"300px"}}/>
+        <ReactTooltip anchorId="my-element_18" content="4Hrs WORKSHOP - HTML,CSS,JS and React at 3pm-7pm - {TEAM}" place="left" style={{backgroundColor:"green",fontSize:"20px",width:"300px"}}/>
       
        {/* WEEK-4 */}
-        <ReactTooltip anchorId="my-element_19" content="TypeScript tutorial-3 at 9am-10am - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px"}}/>
+        <ReactTooltip anchorId="my-element_19" content="PostgreSQL with PERN at 9am-10am - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_20" content="Next JS at 8:30pm-9:30pm - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_21" content="Next JS at 8:30pm-9:30pm - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_22" content="-" style={{backgroundColor:"green",fontSize:"20px"}}/>
