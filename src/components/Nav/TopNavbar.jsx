@@ -85,7 +85,7 @@ export default function TopNavbar() {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={-80}
+                offset={-70}
               >
                 ABOUT
               </Link>
