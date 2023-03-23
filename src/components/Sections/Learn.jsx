@@ -103,7 +103,7 @@ export default function Learn() {
               <div className="card2 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
                 <h1 className="card_heading">HTML-CSS ONLINE BOOTCAMP</h1>
                 <b>
-                  <b className="duration">Duration:</b> 3 months
+                  <b className="duration">Duration:</b> 1 month
                 </b>
                 <b>
                   <b className="duration">Fee:</b> 4000/-
@@ -124,7 +124,7 @@ export default function Learn() {
                   JAVASCRIPT-REACT ONLINE BOOTCAMP
                 </h1>
                 <b>
-                  <b className="duration">Duration:</b> 3 months
+                  <b className="duration">Duration:</b> 1 month
                 </b>
                 <b>
                   <b className="duration">Fee:</b> 4000/-
@@ -143,7 +143,7 @@ export default function Learn() {
               <div className="card4 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
                 <h1 className="card_heading">ADVANCE REACT-NODE-NEXTJS</h1>
                 <b>
-                  <b className="duration">Duration:</b> 3 months
+                  <b className="duration">Duration:</b> 1 month
                 </b>
                 <b>
                   <b className="duration">Fee:</b> 4000/-
