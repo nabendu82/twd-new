@@ -882,7 +882,7 @@ body {
 .card2,
 .card3,
 .card4 {
-  height: 400px;
+  height: 430px;
   background-color: #fff;
   text-align: center;
   padding: 20px 10px;
@@ -917,7 +917,7 @@ body {
   font-size: 1.2rem;
   color: #383838;
   line-height: 1.2;
-  width: 20vw;
+  width: 17vw;
 }
 
 .batch {
@@ -926,7 +926,11 @@ body {
   margin-top: 15px;
   padding: 20px 15px;
 }
-
+.batch2 {
+  height: 200px;
+  width: 180px;
+  padding: 15px;
+}
 .batch3 {
   height: 215px;
   width: 180px;
@@ -966,7 +970,9 @@ body {
   -moz-transform: rotateZ(360deg);
   transform: rotateZ(360deg);
 }
-
+.duration{
+  color: red;
+}
 /* Media querys */
 @media all and (min-width:360px) and (max-width: 768px) {
 
@@ -1116,7 +1122,9 @@ body {
     justify-content: center;
     align-items: center;
   }
-
+  .card_heading {
+    width: 80%;
+}
   .enroll_btn {
     margin: 15px auto;
     width: 50vw;

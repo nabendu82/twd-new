@@ -80,54 +80,82 @@ export default function Learn() {
           <div className="cards_sec">
             <div className="row">
               <div className="card col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-                <h1 className="card_heading">ONLINE BATCH</h1>
-                <img className="batch" src={Onlinecourse} alt="online" />
+                <h1 className="card_heading">
+                  FULL STACK WEB DEVELOPMENT BOOTCAMP
+                </h1>
+                <b>
+                  <b className="duration">Duration:</b> 3 months
+                </b>
+                <b>
+                  <b className="duration">Fee:</b> 9000/-
+                </b>
+                <img className="batch2" src={Onlinecourse} alt="online" />
                 <a
-                  href="https://imojo.in/QhaBRd"
+                  href="https://docs.google.com/document/d/1hyA_Nu8vy7zCToy5LerTWoX_lacWQD5X6Tcs0JMe4qE/edit?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button className="enroll_btn animate pointer radius8">
-                    Enroll Now
+                    Learn more
                   </button>
                 </a>
               </div>
               <div className="card2 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-                <h1 className="card_heading">PHYSICAL BATCH</h1>
-                <img className="batch" src={Offlinecourse} alt="offline" />
+                <h1 className="card_heading">HTML-CSS ONLINE BOOTCAMP</h1>
+                <b>
+                  <b className="duration">Duration:</b> 3 months
+                </b>
+                <b>
+                  <b className="duration">Fee:</b> 4000/-
+                </b>
+                <img className="batch2" src={Offlinecourse} alt="offline" />
                 <a
-                  href="https://imojo.in/QhaBR2"
+                  href="https://docs.google.com/document/d/1UMIjI8qxIg2xzKmvUNGIJXSylgfxTyujbxsSook0Bfg/edit?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button className="enroll_btn1 animate pointer radius8">
-                    Enroll Now
+                    Learn more
                   </button>
                 </a>
               </div>
               <div className="card3 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-                <h1 className="card_heading">PHYSICAL BATCH - LODGING</h1>
+                <h1 className="card_heading">
+                  JAVASCRIPT-REACT ONLINE BOOTCAMP
+                </h1>
+                <b>
+                  <b className="duration">Duration:</b> 3 months
+                </b>
+                <b>
+                  <b className="duration">Fee:</b> 4000/-
+                </b>
                 <img className="batch3" src={Physical_lodging} alt="css" />
                 <a
-                  href="https://imojo.in/QhaBR3"
+                  href="https://docs.google.com/document/d/1UZs2O0mejUxr2CTasrN7ZEVclDDiZj4UfLwl1LWQOws/edit?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button className="enroll_btn1 animate pointer radius8">
-                    Enroll Now
+                    Learn more
                   </button>
                 </a>
               </div>
               <div className="card4 col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-                <h1 className="card_heading">RECORDED PREMIUM COURSE</h1>
-                <img className="batch" src={Recorded_Premium} alt="css" />
+                <h1 className="card_heading">ADVANCE REACT-NODE-NEXTJS</h1>
+                <b>
+                  <b className="duration">Duration:</b> 3 months
+                </b>
+                <b>
+                  <b className="duration">Fee:</b> 4000/-
+                </b>
+                <img className="batch2" src={Recorded_Premium} alt="css" />
                 <a
-                  href="https://imojo.in/wAdrcz"
+                  href="https://docs.google.com/document/d/1__EKGfOYHONQtcfk1r8Zp_qJAytc3wUdavvZKPGOtEU/edit?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button className="enroll_btn1 animate pointer radius8">
-                    Enroll Now
+                    Learn more
                   </button>
                 </a>
               </div>
