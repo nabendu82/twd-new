@@ -56,7 +56,7 @@ const Table = () => {
         <ReactTooltip anchorId="my-element_15" content="4Hrs WORKSHOP - HTML,CSS,JS and Communication Skills at 3pm to 7pm - {TEAM}" place="left" style={{backgroundColor:"green",fontSize:"20px",width:"300px"}}/>
       
        {/* WEEK-4 */}
-        <ReactTooltip anchorId="my-element_16" content="Google Drive Clone in ReactJS at 9am-10am - {NABENDU}"  style={{backgroundColor:"green",fontSize:"20px", width:"300px"}}/>
+        <ReactTooltip anchorId="my-element_16" content="Interview Questions part-6 at 9am-10am - {NABENDU}"  style={{backgroundColor:"green",fontSize:"20px", width:"300px"}}/>
         <ReactTooltip anchorId="my-element_17" content="ReactJS Beginners to Advanced at 8:30pm-9:30pm - {HARI}" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_18" content="ReactJS Beginners to Advanced at 8:30pm-9:30pm - {HARI}" style={{backgroundColor:"green",fontSize:"20px"}}/>
         <ReactTooltip anchorId="my-element_19" content="Career doubt session - 8:30pm to 9:30pm - {Nabendu}" style={{backgroundColor:"green",fontSize:"20px"}}/>
@@ -73,7 +73,7 @@ const Table = () => {
         <ReactTooltip anchorId="my-element_28" content="React Native Beginners to Advanced at 5pm-6pm - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px"}}/>
          {/* ---- */}
         <ReactTooltip anchorId="my-element_29" content="4Hrs WORKSHOP - HTML, CSS, JavaScript and ReactJS - 3pm to 7pm - {TEAM}" place="left" style={{backgroundColor:"green",fontSize:"20px", width:"300px"}}/>
-        <ReactTooltip anchorId="my-element_30" content="AWS S3 tutorials for Beginners - 9am to 10am - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px", width:"300px"}}/>
+        <ReactTooltip anchorId="my-element_30" content="Google Drive in Clone ReactJS - 9am to 10am - {NABENDU}" style={{backgroundColor:"green",fontSize:"20px", width:"300px"}}/>
         
    </div>
   )
