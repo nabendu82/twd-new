@@ -9,7 +9,7 @@ const Table = () => {
         {/* <h3 className="month_name">January - 2023</h3> */}
         <table className="table">
             <thead>
-                <tr><td colSpan="9" align="center" bgColor="#f0e86c"><th style={{color:"#000",letterSpacing:"0.5px",fontSize:"18px"}}>MARCH - 2023</th></td></tr>
+                <tr><td colSpan="9" align="center" bgColor="#f0e86c"><th style={{color:"#000",letterSpacing:"0.5px",fontSize:"18px"}}>APRIL - 2023</th></td></tr>
                 <tr style={{backgroundColor:"green",color:"#fff"}}><td style={{backgroundColor:"#f0e86c"}}></td><td style={{backgroundColor:"red",color:"#fff"}}>Sun</td><td style={{width:"70px"}}>Mon</td><td style={{width:"70px"}}>Tue</td><td style={{width:"70px"}}>Wed</td><td style={{width:"70px"}}>Thu</td><td style={{width:"70px"}}>Fri</td><td style={{width:"70px"}}>Sat</td></tr>
             </thead>
             <tbody>
