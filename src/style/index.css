@@ -170,11 +170,10 @@ thead tr td:last-child {
 }
 
 /* SUNDAY Background-color */
-#my-element_2,
-#my-element_9,
-#my-element_16,
-#my-element_23,
-#my-element_30 {
+#my-element_7,
+#my-element_14,
+#my-element_21,
+#my-element_28 {
   background-color: #000 !important;
 }
 
@@ -1134,4 +1133,6 @@ body {
   /* .card {
     margin: px 15px;
   } */
+
+
 }
